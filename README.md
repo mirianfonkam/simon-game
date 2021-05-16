@@ -1,3 +1,5 @@
 # The-Simon-Game
 Simon Game with JQuery
-# simon-game
+
+
+Deployed at https://mirianfonkam.github.io/simon-game/ 
