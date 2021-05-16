@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|VT323|Oswald');
+
+body {
+  text-align: center;
+  background-color: #113357;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.inline{
+  display: inline-block;
+}
+
+.btn{
+  position: relative;
+  width:200px;
+  height:200px;
+  background-color : grey;
+  border: 12px solid #222;
+}
+
+.b-r{
+  border-bottom-right-radius: 100%;
+}
+
+.b-l{
+  border-bottom-left-radius: 100%;
+}
+
+.t-l{
+  border-top-left-radius: 100%;
+}
+
+.t-r{
+  border-top-right-radius: 100%;
+} 
+
+.wrap{
+  width: 472px;
+  height: 472px;
+  border-radius:100%;
+  position: relative;
+  text-align: center;
+  margin:auto;
+  background-color:#222;
+  box-shadow: 0px 0px 12px #222;
+}
+
+.wrap-in{
+  position: relative;
+  top:12px;
+}
+
+.center{
+  width:220px;
+  height:220px;
+  position : absolute;
+  border-radius:100%;
+  top:50%;
+  left:50%;
+  margin: -122px 0 0 -122px;
+  background-color:#111;
+  border: 12px solid #222;
+}
+
+.brand{
+  font-family: 'Alfa Slab One', cursive;
+  color : #FFF;
+  font-size: 3em;
+  margin-top : 35%;
+}
+
+.brand .small{
+  font-size : 0.3em;
+  position : relative;
+  top : -20px;
+}
+
+.display{
+  width: 60px;
+  position:relative;
+  text-align:center;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+/* Scaling for Mobile */
+@media screen and (max-width: 500px){
+
+  .wrap {
+    top: 40px;
+    
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    
+    -o-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+    
+    left: 50%;
+    margin-left: -142px;
+  }
+}
+
+
+
+
+
