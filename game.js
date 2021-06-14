@@ -24,16 +24,21 @@ function nextSequence() {
   level++;
   //update the h1 with this change in the value of level.
   $("#level-title").text("Level " + level);
-
+  // generates random button
   var randomNumber = Math.floor(Math.random() * 4);
   var randomChosenColour = buttonColours[randomNumber];
-  
   gamePattern.push(randomChosenColour);
 
-  //fix this to create a loop through each color in the gamePattern
-  $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
-  playSound(randomChosenColour);
+  //creates a loop through each color in the gamePattern array, output the nextSequence
+  gamePattern.forEach(function (element, index) {
+    //setTimeout is async, forEach is synchronous
+    setTimeout(function(){
+      $("#" + element).fadeIn(100).fadeOut(100).fadeIn(100);
+      playSound(element);
+    }, 500 * (index + 1));
+  });
 }
+
 
 //function plays the corresponding sound for a particular color
 function playSound(colorName) {
