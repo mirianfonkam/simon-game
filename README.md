@@ -11,7 +11,7 @@ Do what Simon says, and play it now at https://mirianfonkam.github.io/simon-game
 1. Press the spacebar to start
 2. Memorize the sequence and repeat it 
 
-[![Simon-Game-Demo.gif](https://i.postimg.cc/VLVb95z7/Simon-Game-Demo.gif)](https://postimg.cc/4mpdsf7t)
+[![Simon-Game-Demo.gif](https://i.postimg.cc/VLVb95z7/Simon-Game-Demo.gif)](https://i.postimg.cc/VLVb95z7/Simon-Game-Demo.gif)
 
 ## 📖 Reference
 
